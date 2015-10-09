@@ -1,0 +1,9 @@
+create database medicacao_bd;
+
+CREATE TABLE `medicacao_db`.`medicacao` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '	',
+  `nome` VARCHAR(45) NULL,
+  `dosagem` VARCHAR(45) NULL,
+  `intervalo` VARCHAR(45) NULL,
+  `duracao` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
